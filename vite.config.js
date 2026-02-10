@@ -11,4 +11,8 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'dist', // now Vite builds to 'dist'
+        emptyOutDir: true,
+    },
 });
